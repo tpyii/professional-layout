@@ -1287,6 +1287,28 @@ textarea {
   outline: none;
 }
 
+[type=radio] {
+  width: auto;
+  margin-right: 10px;
+}
+
+[type=radio] + label {
+  display: inline-block;
+}
+
+.form-item-description {
+  font-size: 13px;
+  line-height: 1.54;
+  color: #b3b2b2;
+  margin-bottom: 30px;
+}
+
+.form-item-title {
+  font-size: 13px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
 /**
   *   SHOPPING CART
   */
@@ -1561,4 +1583,47 @@ tr a:hover .fa-times-circle {
 
 .shopping-cart-total .shopping-cart-button {
   width: 100%;
+}
+
+/**
+  *   CHECKOUT
+  */
+
+.checkout {
+  margin-bottom: 100px;
+}
+
+.checkout-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.checkout-item {
+  border-bottom: 1px solid #e8e8e8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.checkout-item-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.checkout-grid {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.checkout-form .submit [type=submit] {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  border-color: #4a4a4a;
+}
+
+.checkout-form .submit [type=submit]:hover {
+  border-color: #ef5b70;
 }
