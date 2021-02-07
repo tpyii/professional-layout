@@ -468,139 +468,134 @@
       </article>
     </header>
     <main>
-      <article class="product-detail">
-        <div class="slider slider-product">
-          <div class="slider-track">
-            <div class="slider-slide">
-              <img src="./img/layer-42.jpg" alt="">
-            </div>
-          </div>
-          <div class="slider-navigation">
-            <button class="slider-arrow slider-arrow-prev"><i class="fas fa-chevron-left"></i></button>
-            <button class="slider-arrow slider-arrow-next"><i class="fas fa-chevron-right"></i></button>
-          </div>
-        </div>
-        <div class="container product-detail-container">
-          <div class="product-detail-wrapper">
-            <div class="product-detail-collection">WOMEN COLLECTION</div>
-            <h2 class="product-detail-title">Moschino Cheap And Chic</h2>
-            <div class="product-detail-description">
-              <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
-            </div>
-            <div class="product-detail-info">
-              <div class="product-detail-info-item">
-                <div class="product-detail-info-label">MATERIAL:</div>
-                <div class="product-detail-info-text">COTTON</div>
-              </div>
-              <div class="product-detail-info-item">
-                <div class="product-detail-info-label">DESIGNER:</div>
-                <div class="product-detail-info-text">BINBURHAN</div>
-              </div>
-            </div>
-            <div class="product-detail-price">$561</div>
-            <form class="product-detail-form">
-              <div class="form-item-grid">
-                <div class="form-item">
-                  <label for="">CHOOSE COLOR</label>
-                 <select name="" id="">
-                   <option value="Red">Red</option>
-                 </select>
-                </div>
-                <div class="form-item">
-                  <label for="">CHOOSE SIZE</label>
-                 <select name="" id="">
-                   <option value="XXL">XXL</option>
-                 </select>
-                </div>
-                <div class="form-item">
-                  <label for="">QUANTITY</label>
-                  <input type="number" min="1" value="2">
-                </div>
-                <div class="form-item submit">
-                  <button type="submit"><img src="./img/cart-pink.svg" alt=""> Add to Cart</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </article>
-      <article class="products">
+      <article class="shopping-cart">
         <div class="container">
-          <div class="products-header">
-            <div class="products-header-title text-uppercase">you may like also</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Details</th>
+                <th>unite Price</th>			
+                <th>Quantity</th>			
+                <th>shipping</th>			
+                <th>Subtotal</th>		    
+                <th>ACTION</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product-cart">
+                    <div class="product-cart-image">
+                      <img src="./img/products/product-1.jpg" alt="">
+                    </div>
+                    <div class="product-cart-detail">
+                      <h2 class="product-cart-title">Mango  People  T-shirt</h2>
+                      <div class="product-cart-info">Color: <span>Red</span></div>
+                      <div class="product-cart-info">Size: <span>Xll</span></div>
+                    </div>
+                  </div>
+                </td>
+                <td>$150</td>
+                <td>
+                  <input type="number" min="1" value="2">
+                </td>
+                <td>FREE</td>
+                <td>$300</td>
+                <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product-cart">
+                    <div class="product-cart-image">
+                      <img src="./img/products/product-2.jpg" alt="">
+                    </div>
+                    <div class="product-cart-detail">
+                      <h2 class="product-cart-title">Mango  People  T-shirt</h2>
+                      <div class="product-cart-info">Color: <span>Red</span></div>
+                      <div class="product-cart-info">Size: <span>Xll</span></div>
+                    </div>
+                  </div>
+                </td>
+                <td>$150</td>
+                <td>
+                  <input type="number" min="1" value="2">
+                </td>
+                <td>FREE</td>
+                <td>$300</td>
+                <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product-cart">
+                    <div class="product-cart-image">
+                      <img src="./img/products/product-3.jpg" alt="">
+                    </div>
+                    <div class="product-cart-detail">
+                      <h2 class="product-cart-title">Mango  People  T-shirt</h2>
+                      <div class="product-cart-info">Color: <span>Red</span></div>
+                      <div class="product-cart-info">Size: <span>Xll</span></div>
+                    </div>
+                  </div>
+                </td>
+                <td>$150</td>
+                <td>
+                  <input type="number" min="1" value="2">
+                </td>
+                <td>FREE</td>
+                <td>$300</td>
+                <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="shopping-cart-actions">
+            <a href="#" class="shopping-cart-button">cLEAR SHOPPING CART</a>
+            <a href="#" class="shopping-cart-button">cONTINUE sHOPPING</a>
           </div>
-          <div class="products-body">
-            <div class="products-grid">
-              <div class="product-item">
-                <a href="#">
-                  <div class="product-item-img">
-                    <div class="product-button-wrapper">
-                      <button type='button' class="product-button">
-                        <img src="./img/cart.svg" alt="">
-                        Add to Cart
-                      </button>
-                    </div>
-                    <img src="./img/products/product-9.jpg" alt="">
+          <div class="shopping-cart-forms">
+            <div class="shopping-cart-forms-gird">
+              <div>
+                <form class="shopping-cart-form">
+                  <h3>Shipping Adress</h3>
+                  <div class="form-item">
+                    <select name="" id="">
+                      <option value="Bangladesh">Bangladesh</option>
+                    </select>
                   </div>
-                  <div class="product-item-info">
-                    <div class="product-item-title">BLAZE LEGGINGS</div>
-                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
+                  <div class="form-item">
+                    <input type="text" name="" id="" placeholder="State">
                   </div>
-                </a>
+                  <div class="form-item">
+                    <input type="text" name="" id="" placeholder="Postcode / Zip">
+                  </div>
+                  <div class="form-item submit">
+                    <button type="submit">get a quote</button>
+                  </div>
+                </form>
               </div>
-              <div class="product-item">
-                <a href="#">
-                  <div class="product-item-img">
-                    <div class="product-button-wrapper">
-                      <button type='button' class="product-button">
-                        <img src="./img/cart.svg" alt="">
-                        Add to Cart
-                      </button>
-                    </div>
-                    <img src="./img/products/product-10.jpg" alt="">
+              <div>
+                <form class="shopping-cart-form">
+                  <h3>coupon  discount</h3>
+                  <div class="form-item">
+                    <label for="" class="label-small">Enter your coupon code if you have one</label>
+                    <input type="text" name="" id="" placeholder="State">
                   </div>
-                  <div class="product-item-info">
-                    <div class="product-item-title">ALEXA SWEATER</div>
-                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
+                  <div class="form-item submit">
+                    <button type="submit">Apply coupon</button>
                   </div>
-                </a>
+                </form>
               </div>
-              <div class="product-item">
-                <a href="#">
-                  <div class="product-item-img">
-                    <div class="product-button-wrapper">
-                      <button type='button' class="product-button">
-                        <img src="./img/cart.svg" alt="">
-                        Add to Cart
-                      </button>
-                    </div>
-                    <img src="./img/products/product-11.jpg" alt="">
+              <div>
+                <div class="shopping-cart-total">
+                  <div class="shopping-cart-total-detail">
+                    <div class="shopping-cart-total-sub">Sub total $900</div>
+                    <div class="shopping-cart-total-grand">GRAND TOTAL <span class="color-pink">$900</span></div>
                   </div>
-                  <div class="product-item-info">
-                    <div class="product-item-title">AGNES TOP</div>
-                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
-                  </div>
-                </a>
-              </div>
-              <div class="product-item">
-                <a href="#">
-                  <div class="product-item-img">
-                    <div class="product-button-wrapper">
-                      <button type='button' class="product-button">
-                        <img src="./img/cart.svg" alt="">
-                        Add to Cart
-                      </button>
-                    </div>
-                    <img src="./img/products/product-12.jpg" alt="">
-                  </div>
-                  <div class="product-item-info">
-                    <div class="product-item-title">SYLVA SWEATER</div>
-                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
-                  </div>
-                </a>
+                  <a href="#" class="shopping-cart-button pink">proceed to checkout</a>
+                </div>
               </div>
             </div>
           </div>
+          
         </div>
       </article>
       <article class="subscribe">
