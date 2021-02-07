@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <article class="header">
+        <div class="container header-container">
+          <div class="header-left">
+            <a href="/"><img src="./img/logo.jpg" alt="" class="logo"></a>
+            <div class="input-group header-search">
+              <button class="btn btn-grey dropdown" type="button">
+                Browse <i class="fas fa-caret-down"></i>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-section">
+                    Women
+                    <ul class="dropdown-menu-section-links">
+                      <li class="dropdown-menu-section-link"><a href="#">Dresses</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Tops</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Sweaters/Knits</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Jackets/Coats</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Blazers</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Denim</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Leggings/Pants</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Skirts/Shorts</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Accessories</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-menu-section">
+                    Men
+                    <ul class="dropdown-menu-section-links">
+                      <li class="dropdown-menu-section-link"><a href="#">Tees/Tank tops</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Shirts/Polos</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Sweaters</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Sweatshirts/Hoodies</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Blazers</a></li>
+                      <li class="dropdown-menu-section-link"><a href="#">Jackets/vests</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </button>
+              <input type="text" class="form-control" placeholder="Search for Item...">
+              <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="header-right">
+            <a href="#"><img src="./img/cart.svg" alt=""></a>
+            <button class="btn btn-pink header-account-btn" type="button">My Account <i class="fas fa-caret-down"></i></button>
+          </div>
+        </div>
+      </article>
+      <nav class="menu">
+        <div class="container menu-container">
+          <ul class="menu-main">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Man</a></li>
+            <li><a href="/">Women</a></li>
+            <li><a href="/">Kids</a></li>
+            <li><a href="/">Accoseriese</a></li>
+            <li><a href="/">Featured</a></li>
+            <li><a href="/">Hot Deals </a></li>
+          </ul>
+        </div>
+      </nav>
+      <article class="page-title">
+        <div class="container">
+          <div class="page-title-grid">
+            <h1 class="title">New Arrivals</h1>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs-item"><a href="#" class="breadcrumbs-link">Home</a></li>
+              <li class="breadcrumbs-item"><a href="#" class="breadcrumbs-link">Men</a></li>
+              <li class="breadcrumbs-item"><a href="#" class="breadcrumbs-link breadcrumbs-link-active">New Arrivals</a></li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </header>
+    <main>
+      <article class="product-detail">
+        <div class="slider slider-product">
+          <div class="slider-track">
+            <div class="slider-slide">
+              <img src="./img/layer-42.jpg" alt="">
+            </div>
+          </div>
+          <div class="slider-navigation">
+            <button class="slider-arrow slider-arrow-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-arrow slider-arrow-next"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+        <div class="container product-detail-container">
+          <div class="product-detail-wrapper">
+            <div class="product-detail-collection">WOMEN COLLECTION</div>
+            <h2 class="product-detail-title">Moschino Cheap And Chic</h2>
+            <div class="product-detail-description">
+              <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
+            </div>
+            <div class="product-detail-info">
+              <div class="product-detail-info-item">
+                <div class="product-detail-info-label">MATERIAL:</div>
+                <div class="product-detail-info-text">COTTON</div>
+              </div>
+              <div class="product-detail-info-item">
+                <div class="product-detail-info-label">DESIGNER:</div>
+                <div class="product-detail-info-text">BINBURHAN</div>
+              </div>
+            </div>
+            <div class="product-detail-price">$561</div>
+            <form class="product-detail-form">
+              <div class="form-item-grid">
+                <div class="form-item">
+                  <label for="">CHOOSE COLOR</label>
+                 <select name="" id="">
+                   <option value="Red">Red</option>
+                 </select>
+                </div>
+                <div class="form-item">
+                  <label for="">CHOOSE SIZE</label>
+                 <select name="" id="">
+                   <option value="XXL">XXL</option>
+                 </select>
+                </div>
+                <div class="form-item">
+                  <label for="">QUANTITY</label>
+                  <input type="number" min="1" value="2">
+                </div>
+                <div class="form-item submit">
+                  <button type="submit"><img src="./img/cart-pink.svg" alt=""> Add to Cart</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+      <article class="products">
+        <div class="container">
+          <div class="products-header">
+            <div class="products-header-title text-uppercase">you may like also</div>
+          </div>
+          <div class="products-body">
+            <div class="products-grid">
+              <div class="product-item">
+                <a href="#">
+                  <div class="product-item-img">
+                    <div class="product-button-wrapper">
+                      <button type='button' class="product-button">
+                        <img src="./img/cart.svg" alt="">
+                        Add to Cart
+                      </button>
+                    </div>
+                    <img src="./img/products/product-9.jpg" alt="">
+                  </div>
+                  <div class="product-item-info">
+                    <div class="product-item-title">BLAZE LEGGINGS</div>
+                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
+                  </div>
+                </a>
+              </div>
+              <div class="product-item">
+                <a href="#">
+                  <div class="product-item-img">
+                    <div class="product-button-wrapper">
+                      <button type='button' class="product-button">
+                        <img src="./img/cart.svg" alt="">
+                        Add to Cart
+                      </button>
+                    </div>
+                    <img src="./img/products/product-10.jpg" alt="">
+                  </div>
+                  <div class="product-item-info">
+                    <div class="product-item-title">ALEXA SWEATER</div>
+                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
+                  </div>
+                </a>
+              </div>
+              <div class="product-item">
+                <a href="#">
+                  <div class="product-item-img">
+                    <div class="product-button-wrapper">
+                      <button type='button' class="product-button">
+                        <img src="./img/cart.svg" alt="">
+                        Add to Cart
+                      </button>
+                    </div>
+                    <img src="./img/products/product-11.jpg" alt="">
+                  </div>
+                  <div class="product-item-info">
+                    <div class="product-item-title">AGNES TOP</div>
+                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
+                  </div>
+                </a>
+              </div>
+              <div class="product-item">
+                <a href="#">
+                  <div class="product-item-img">
+                    <div class="product-button-wrapper">
+                      <button type='button' class="product-button">
+                        <img src="./img/cart.svg" alt="">
+                        Add to Cart
+                      </button>
+                    </div>
+                    <img src="./img/products/product-12.jpg" alt="">
+                  </div>
+                  <div class="product-item-info">
+                    <div class="product-item-title">SYLVA SWEATER</div>
+                    <div class="product-item-price"><span class="color-pink">$52.00</span></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="subscribe">
+        <div class="container subscribe-container">
+          <div class="subscribe-grid">
+            <div class="subscribe-review">
+              <div class="slider">
+                <div class="slider-container">
+                  <div class="slider-slide">
+                    <div class="blockquote">
+                      <img src="./img/review-avatar.jpg" alt="" class="blockquote-avatar">
+                      <div>
+                        <div class="blockquote-body">
+                          “Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                          a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                        </div>
+                        <div class="blockquote-author">
+                          <span class="color-pink">Bin Burhan</span>
+                          Dhaka, Bd
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-pagination">
+                  <ul class="slider-pagination-buttons">
+                    <li class="slider-pagination-button"><a href="#"></a></li>
+                    <li class="slider-pagination-button"><a href="#" class="active"></a></li>
+                    <li class="slider-pagination-button"><a href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="subscribe-form">
+              <div class="subscribe-form-wrapper">
+                <div class="subscribe-form-title">
+                  Subscribe<br>
+                  FOR OUR NEWLETTER AND PROMOTION
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Enter Your Email">
+                  <button type="submit" class="btn-pink">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <article class="footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-left">
+              <a href="#"><img src="./img/logo.jpg" alt=""></a>
+              <div class="footer-text">
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                <p>Efficiently plagiarize 24/365 action items and focused infomediaries. 
+                Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+              </div>
+            </div>
+            <div class="footer-right">
+              <ul class="footer-menu-grid">
+                <li class="footer-menu-section">
+                  COMPANY
+                  <ul class="footer-menu-section-menu">
+                    <li class="footer-menu-section-item"><a href="#">Home</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Shop</a></li>
+                    <li class="footer-menu-section-item"><a href="#">About</a></li>
+                    <li class="footer-menu-section-item"><a href="#">How It Works</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Contact</a></li>
+                  </ul>
+                </li>
+                <li class="footer-menu-section">
+                  INFORMATION
+                  <ul class="footer-menu-section-menu">
+                    <li class="footer-menu-section-item"><a href="#">Tearms & Condition</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Privacy Policy</a></li>
+                    <li class="footer-menu-section-item"><a href="#">How to Buy</a></li>
+                    <li class="footer-menu-section-item"><a href="#">How to Sell</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Promotion</a></li>
+                  </ul>
+                </li>
+                <li class="footer-menu-section">
+                  SHOP CATEGORY
+                  <ul class="footer-menu-section-menu">
+                    <li class="footer-menu-section-item"><a href="#">Men</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Women</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Child</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Apparel</a></li>
+                    <li class="footer-menu-section-item"><a href="#">Brows All</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="footer-down">
+        <div class="container">
+          <div class="footer-down-grid">
+            <div class="copyright">© 2017  Brand  All Rights Reserved.</div>
+            <ul class="socials">
+              <li class="socials-link"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="socials-link"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="socials-link"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="socials-link"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+              <li class="socials-link"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </footer>
+  </div>
+</body>
