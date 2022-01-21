@@ -59,7 +59,7 @@
                         <td>
                           <div class="product-cart">
                             <div class="product-cart-image">
-                              <img src="./img/products/product-1.jpg" alt="">
+                              <a href="#"><img src="./img/products/product-1.jpg" alt=""></a>
                             </div>
                             <div class="product-cart-detail">
                               <h2 class="product-cart-title">Rebox Zane</h2>
@@ -80,7 +80,7 @@
                         <td>
                           <div class="product-cart">
                             <div class="product-cart-image">
-                              <img src="./img/products/product-2.jpg" alt="">
+                              <a href="#"><img src="./img/products/product-2.jpg" alt=""></a>
                             </div>
                             <div class="product-cart-detail">
                               <h2 class="product-cart-title">Rebox Zane</h2>
@@ -100,7 +100,7 @@
                     </tbody>
                   </table>
                   <div class="header-cart-total">
-                    <soan>TOTAL</soan>
+                    <span>TOTAL</span>
                     <span>$500.00</span>
                   </div>
                   <a href="#" class="shopping-cart-button btn-pink">Checkout</a>
@@ -474,25 +474,53 @@
             <li class="checkout-item">
               <h2 class="checkout-item-title">01. Shipping Adress</h2>
               <div class="checkout-grid">
-                <form class="checkout-form">
-                  <h3 class="form-item-title">Check as a guest or register</h3>
-                  <p class="form-item-description">Check as a guest or register</p>
-                  <div class="form-item form-item-radio">
-                    <div class="form-item-radio">
-                      <input type="radio" name="register" id="input-guest">
-                      <label for="input-guest"">checkout as guest</label>
+                <div class="checkout-grid-col">
+                  <form class="checkout-form">
+                    <h3 class="form-item-title">Check as a guest or register</h3>
+                    <p class="form-item-description">Check as a guest or register</p>
+                    <div class="form-item form-item-radio">
+                      <div class="form-item-radio">
+                        <input type="radio" name="register" id="input-guest">
+                        <label for="input-guest">checkout as guest</label>
+                      </div>
+                      <div class="form-item-radio">
+                        <input type="radio" name="register" id="input-register">
+                        <label for="input-register">register</label>
+                      </div>
                     </div>
-                    <div class="form-item-radio">
-                      <input type="radio" name="register" id="input-register">
-                      <label for="input-register"">register</label>
+                    <h3 class="form-item-title">register and save time!</h3>
+                    <p class="form-item-description">Register with us for future convenience</p>
+                    <p class="form-item-description">
+                      <i class="fas fa-angle-double-right"></i> Fast and easy checkout
+                      <br><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                    <div class="form-item submit">
+                      <button type="submit">Continue</button>
                     </div>
-                  </div>
-                  <h3 class="form-item-title">register and save time!</h3>
-                  <p class="form-item-description">Register with us for future convenience</p>
-                  <div class="form-item submit">
-                    <button type="submit">Continue</button>
-                  </div>
-                </form>
+                  </form>
+                </div>
+                <div class="checkout-grid-col">
+                  <form class="checkout-form">
+                    <h3 class="form-item-title">Already registed?</h3>
+                    <p class="form-item-description">Please log in below</p>
+                    <div class="form-item">
+                      <label>EMAIL ADDRESS<span>*</span></label>
+                      <input type="email" required>
+                    </div>
+                    <div class="form-item">
+                      <label>PASSWORD<span>*</span></label>
+                      <input type="password" required>
+                    </div>
+                    <p class="form-item-description required">* Required Fileds</p>
+                    <div class="form-item-grid">
+                      <div class="form-item submit">
+                        <button type="submit">Log in</button>
+                      </div>
+                      <div class="form-item">
+                        <a href="#">Forgot Password ?</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
             </li>
             <li class="checkout-item">
@@ -552,7 +580,7 @@
                 </div>
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Enter Your Email">
-                  <button type="submit" class="btn-pink">Subscribe</button>
+                  <button type="submit">Subscribe</button>
                 </div>
               </div>
             </div>
