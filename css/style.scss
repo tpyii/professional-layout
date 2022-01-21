@@ -179,6 +179,7 @@ button {
 
 .input-group {
   display: flex;
+  position: relative;
 }
 
 .input-group > button,
@@ -944,14 +945,14 @@ button {
 
 .dropdown::after,
 .dropdown .dropdown-menu,
-.menu-main .dropdown + .dropdown-menu {
+.dropdown + .dropdown-menu {
   transition: opacity .2s ease-out,
               visibility .2s ease-out;
 }
 
 .dropdown:hover::after,
 .dropdown:hover .dropdown-menu,
-.menu-main .dropdown:hover + .dropdown-menu,
+.dropdown:hover + .dropdown-menu,
 .dropdown-menu:hover {
   opacity: 1;
   visibility: visible;
